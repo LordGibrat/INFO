@@ -1,6 +1,8 @@
 # INFO — PHP ordering application
 
-INFO is a small PHP/MySQL web application prototype with separate user and administrator flows.
+**An early PHP/MySQL ordering prototype with separate customer and administrator flows.**
+
+This repository is a learning project. The redesigned customer-facing continuation is [INFO Neon v2](https://github.com/LordGibrat/INFO-neon-v2).
 
 ## What it includes
 
@@ -24,7 +26,7 @@ The project is intentionally compact and is useful as an early web-development e
 
 ## Local setup
 
-The PHP files expect a local MySQL server at `127.0.0.1` and a database named `dbgiba`. Create the required tables before running the application, then serve the repository through Apache, PHP’s development server, or another PHP-capable environment.
+The PHP files expect a local MySQL server at `127.0.0.1` and a database named `dbgiba`. The repository does not include a database migration or seed file. Create the tables expected by the PHP code before using the forms, then serve the repository through Apache, PHP’s development server, or another PHP-capable environment.
 
 ```bash
 php -S 127.0.0.1:8000
