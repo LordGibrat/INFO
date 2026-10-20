@@ -7,7 +7,8 @@ Kazakh-first responsive storefront and private desktop/mobile order administrati
 
 ## Features
 
-- Authentic Instagram portfolio with source links; Kazakh/Russian customer interface.
+- Authentic Instagram portfolio with source links and seven public Highlights covers linking to the original collections. Instagram may require sign-in to view full stories.
+- Kazakh, Russian and English storefront, order form, privacy page and admin dashboard. The selected language persists in browser storage and can be shared through `?lang=kk`, `?lang=ru` or `?lang=en`.
 - Quote requests saved to Neon PostgreSQL with duplicate submission protection.
 - Pickup in Oral, local delivery, or manually arranged Kazpost shipping with full recipient/address details.
 - Protected admin: search, statuses, notes, shipping cost, tracking, call and WhatsApp links.
